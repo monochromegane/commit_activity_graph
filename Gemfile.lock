@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/monochromegane/commit_activity
-  revision: 1270e1f64673fb7c5aa2383174105946adef6214
+  revision: 972b618172347a74653481dcddc6acbab82012b4
   specs:
-    commit_activity (0.0.2)
+    commit_activity (0.0.3)
       systemu
 
 GEM
