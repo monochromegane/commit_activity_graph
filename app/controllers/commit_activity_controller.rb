@@ -1,8 +1,6 @@
 class CommitActivityController < ApplicationController
   def index
-    @commit_activity = CommitActivity.aggregate
-                        .on('.')
-                        .hash
+    @commit_activity = CommitActivity.aggregate.hash
 
     @high_chart = LazyHighCharts::HighChart.new('graph') do |f|
       f.chart(type: 'arearange')
