@@ -45,6 +45,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'slim-rails'
+gem 'lazy_high_charts'
 gem 'commit_activity', git: 'https://github.com/monochromegane/commit_activity'
 
 group :development, :test do
