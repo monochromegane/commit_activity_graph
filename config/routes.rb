@@ -1,3 +1,3 @@
 CommitActivityGraph::Application.routes.draw do
-  resources :commit_activity, only: [:index]
+  get '/commit_activity(/since/:since)', to: 'commit_activity#index'
 end
